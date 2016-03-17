@@ -1,4 +1,4 @@
-package main
+package chapter3
 
 import "fmt"
 
@@ -15,6 +15,17 @@ func main() {
 	)
 	fmt.Println(a, b, c)
 	fmt.Println("asd")
+	var z = 4
+	var w int = 5
+	y := "jkl"
+	r := 1010
+	r += 1
+ 	fmt.Println(z)
+	fmt.Println(w)
+	fmt.Println(y)
+	fmt.Println(r)
+
+
 }
 
 func f() {
